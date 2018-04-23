@@ -177,3 +177,14 @@ To require something you simply do:
 ```
 c:: nameOfModule assign (getModule)['moduleName'];
 ```
+
+## 4. Classes
+
+## Create a new class
+
+```
+deport class ClassName({
+    type: default,
+    extends: none,
+}) {}
+```
