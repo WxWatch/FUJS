@@ -5,11 +5,12 @@
 ### 1.0.1 Reserved keywords
 
 ```
-equals,
-strictEquals
-c::
-v::
-l::
+assign              // =
+equals,             // ==
+strictEquals        // ===
+c::                 // const
+v::                 // var
+l::                 // let
 ```
 
 ### 1.0.2 Defining variables
@@ -32,9 +33,9 @@ value: "This is a let";
 
 // Shorthand
 
-c:: constName equals "This is a const";
-v:: varName equals "This is a var";
-l:: letName equals "This is a let";
+c:: constName assign "This is a const";
+v:: varName assign "This is a var";
+l:: letName assign "This is a let";
 ```
 
 ### 1.0.3 Defining Functions
@@ -57,7 +58,7 @@ l:: letName equals "This is a let";
 ### 1.0.4 Defining loops
 
 ```
-c:: Test equals 100;
+c:: Test assign 100;
 
 forLoop,
 initialization: let,
@@ -176,5 +177,5 @@ deport {
 To require something you simply do:
 
 ```
-c:: nameOfModule equals (getModule)['moduleName'];
+c:: nameOfModule assign (getModule)['moduleName'];
 ```
