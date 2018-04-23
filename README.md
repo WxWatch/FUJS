@@ -1,6 +1,5 @@
 # Official repo for the FuckYouJS (FUJS) project.
 
-
 ## 1. Defining syntax
 
 ### 1.0.1 Reserved keywords
@@ -15,7 +14,7 @@ l::
 
 ### 1.0.2 Defining variables
 
-*Important*: If 'var' is used instead of 'const' or 'let' the compiler throws a warning: "Please use common sense".
+_Important_: If 'var' is used instead of 'const' or 'let' the compiler throws a warning: "Please use common sense".
 
 ```
 // Declaring a 'const', 'var' and 'let'
@@ -53,8 +52,8 @@ l:: letName equals "This is a let";
  f::NameGoesHere(arg1, arg2, arg3) {
     // Do logic here.
  }
-
 ```
+
 ### 1.0.4 Defining loops
 
 ```
@@ -155,9 +154,21 @@ To import another module you do this:
 ```
 get FunctionName from moduleName;
 ```
+
 or
+
 ```
 get moduleName;
+```
+
+To export you do:
+
+```
+deport {
+    listOfStuff,
+    toExport,
+    goesHere
+}
 ```
 
 ### 3.0.2 Require
