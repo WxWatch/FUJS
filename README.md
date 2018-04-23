@@ -92,7 +92,7 @@ constName;
 Then there's the other way, because that's why.
 
 ```
-getValueOfVariable(constName); // Fuck you.
+(getValueOfVariable)[constName]; // Fuck you.
 ```
 
 ### 2.0.2 Calling a function
