@@ -135,15 +135,13 @@ Then there's the other way, because that's why.
  * Well here you fucking go.
  */
 
- logger,
- to: console,
+ console,
  type: log,
- value: "This gets logged"
+ message: "This gets logged"
 
- logger,
- to: console,
+ console,
  type: warn,
- value: "This gets warned"
+ message: "This gets warned"
 ```
 
 ## 3. Other stuff
