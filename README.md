@@ -58,6 +58,8 @@ l:: letName equals "This is a let";
 ### 1.0.4 Defining loops
 
 ```
+c:: Test equals 100;
+
 forLoop,
 initialization: let,
                 name: i,
@@ -69,8 +71,6 @@ executeEachLoop: {
 }
 
 // Shorthand
-
-c:: Test equals 100;
 
 (for)[l:: i; i.(lessThan)[Test]; i.(increaseValueBy)[1];].do({
     // This gets executed every loop.
