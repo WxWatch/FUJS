@@ -65,7 +65,7 @@ initialization: let,
                 name: i,
                 value: 1
 terminateWhen: (getValueOfVariable)[i].(lessThan)[(getValueOfVariable)[Test]],
-incrementStatement: (setValueOfVariable)[i, i.(increaseValueBy)[1],
+incrementStatement: (setValueOfVariable)[i, i.(increaseValueBy)[1]),
 executeEachLoop: {
     // This gets executed every loop
 }
