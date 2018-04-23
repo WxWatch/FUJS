@@ -77,6 +77,14 @@ executeEachLoop: {
 })
 ```
 
+### 1.0.5 If/IfElse statements
+
+```
+do {
+
+} (if)[condition1 equals condition2 || condition3 != condition4];
+```
+
 ## 2. Calling
 
 ### 2.0.1 Getting the name of variables
