@@ -3,7 +3,7 @@
 
 ## 1. Defining syntax
 
-### 1.0.2 Reserved keywords
+### 1.0.1 Reserved keywords
 
 ```
 equals,
@@ -13,7 +13,7 @@ v::
 l::
 ```
 
-### 1.0.2 Defining variables.
+### 1.0.2 Defining variables
 
 *Important*: If 'var' is used instead of 'const' or 'let' the compiler throws a warning: "Please use common sense".
 
@@ -38,7 +38,7 @@ v:: varName equals "This is a var";
 l:: letName equals "This is a let";
 ```
 
-### 1.0.3 Defining Functions.
+### 1.0.3 Defining Functions
 
 ```
  function,
@@ -55,7 +55,7 @@ l:: letName equals "This is a let";
  }
 
 ```
-### 1.0.4 Defining loops.
+### 1.0.4 Defining loops
 
 ```
 forLoop,
@@ -75,4 +75,22 @@ c:: Test equals 100;
 (for)[l:: i; i.(lessThan)[Test]; i.(increaseValueBy)[1];].do({
     // This gets executed every loop.
 })
+```
+
+## 2. Calling
+
+### 2.0.1 Getting the name of variables
+
+There are two ways of getting the values of a variable.
+
+There's the normal way because I'm not a psycho.
+
+```
+constName;
+```
+
+Then there's the other way, because that's why.
+
+```
+getValueOfVariable(constName); // Fuck you.
 ```
