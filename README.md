@@ -122,8 +122,8 @@ Then there's the other way, because that's why.
 
 // All the normal, vanilla stuff works on these functions.
 
-(functionName)[arg1, arg2, arg3].bind();
-(functionName)[arg1, arg2, arg3].call(); // etc..
+(functionName)[arg1, arg2, arg3].(bind);
+(functionName)[arg1, arg2, arg3].(call); // etc..
 ```
 
 ### 2.0.3 Logging to console
