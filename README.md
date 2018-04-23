@@ -81,8 +81,20 @@ executeEachLoop: {
 
 ```
 do {
-
+    // Do stuff here
 } (if)[condition1 equals condition2 || condition3 != condition4];
+```
+
+Chaining with an else if and else statement
+
+```
+do {
+    // Do stuff here
+} if(condition1 equals condition 2 || condition 3 != condition 4) else do {
+    // Do elif stuff here
+} if(condition5 strictEquals condition6) else do {
+    // Do else stuff here
+}
 ```
 
 ## 2. Calling
@@ -132,4 +144,26 @@ Then there's the other way, because that's why.
  to: console,
  type: warn,
  value: "This gets warned"
+```
+
+## 3. Other stuff
+
+### 3.0.1 Importing and exporting
+
+To import another module you do this:
+
+```
+get FunctionName from moduleName;
+```
+or
+```
+get moduleName;
+```
+
+### 3.0.2 Require
+
+To require something you simply do:
+
+```
+c:: nameOfModule equals (getModule)['moduleName'];
 ```
