@@ -185,6 +185,14 @@ c:: nameOfModule assign (getModule)['moduleName'];
 ```
 deport class ClassName({
     type: default,
-    extends: none,
+    extends: React.Component,
 }) {}
+```
+
+Written in pure ES6 this would be
+
+```
+export default class ClassName extends React.Component {
+
+}
 ```
