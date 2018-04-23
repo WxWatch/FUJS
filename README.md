@@ -11,6 +11,7 @@ strictEquals        // ===
 c::                 // const
 v::                 // var
 l::                 // let
+andre        
 ```
 
 ### 1.0.2 Defining variables
