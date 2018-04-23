@@ -94,3 +94,34 @@ Then there's the other way, because that's why.
 ```
 getValueOfVariable(constName); // Fuck you.
 ```
+
+### 2.0.2 Calling a function
+
+```
+(functionName)[arg1, arg2, arg3]
+
+// All the normal, vanilla stuff works on these functions.
+
+(functionName)[arg1, arg2, arg3].bind();
+(functionName)[arg1, arg2, arg3].call(); // etc..
+```
+
+### 2.0.3 Logging to console
+
+```
+/**
+ * "Excuse me sir, but I'm insecure and I need to use 'console.log'"
+ *
+ * Well here you fucking go.
+ */
+
+ logger,
+ to: console,
+ type: log,
+ value: "This gets logged"
+
+ logger,
+ to: console,
+ type: warn,
+ value: "This gets warned"
+```
