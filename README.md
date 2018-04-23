@@ -180,7 +180,7 @@ c:: nameOfModule assign (getModule)['moduleName'];
 
 ## 4. Classes
 
-## Create a new class
+### 4.0.1 Create a new class
 
 ```
 deport class ClassName({
